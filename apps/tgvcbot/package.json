@@ -8,7 +8,7 @@
     "dev": "ts-node src/app.ts",
     "test": "tsc --noEmit",
     "build": "rimraf build && tsc",
-    "start": "node dist/app.js",
+    "start": "node build/app.js",
     "lint": "eslint . --ext .ts --max-warnings=0"
   },
   "author": {
